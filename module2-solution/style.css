@@ -1,0 +1,72 @@
+#a1{
+    background-color: gray;
+    width: 30%;
+    padding:5px ;
+    margin: 5px;
+    position: relative;
+    float: left;
+}
+#a2{
+    background-color: pink;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+}
+#a3,#a6,#a9{
+    font-size: 25px;
+}
+#a4{
+    background-color: gray;
+    width: 30%;
+    padding:5px ;
+    margin:5px;
+    position: relative;
+    float: left;
+}
+#a5{
+    background-color:red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+    color: white;
+}
+#a7{
+    background-color: gray;
+    width: 30%;
+    padding:5px ;
+    margin: 5px;
+    position: relative;
+    float: left;
+}
+#a8{
+    background-color:goldenrod;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+}
+@media screen and (min-width:992px) {  
+    #a1,#a4,#a7{
+        width:30%;
+    }
+}
+@media screen and (max-width:991px){  
+    #a1,#a4{
+        width:47%;
+    }#a7{
+        width:96%;
+    }
+}
+@media screen and (max-width:767px) {
+    #a1,#a4,#a7{
+        width: 60%;
+    }
+}
